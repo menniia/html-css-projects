@@ -1,0 +1,122 @@
+button {
+  cursor: pointer;
+}
+
+.subscribe-button {
+    background-color: rgb(244, 38, 38);
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    margin-right: 7px;
+    transition: opacity 0.15s;
+  }
+
+  .subscribe-button:hover {
+    opacity: 0.7;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.3;
+  }
+
+  .join-button {
+    background-color: white;
+    color: rgb(65, 59, 235);
+    padding: 8px 10px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(79, 79, 226);
+    margin-right: 7px;
+    transition: background-color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }    
+
+  .tweet-button {
+    background-color: rgb(2, 158, 238);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 25px;
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  div {
+    margin-top: 15px;
+  }
+
+  .pagination button {
+    margin-left: 0;
+    margin-right: 7px;
+    padding: 5px;
+  }
+
+  .pagination a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .pagination a:hover {
+    text-decoration: underline;
+  }
+
+  .pagination a:active {
+    color: blue;
+  }
+
+  .stretch button {
+    background-color: rgb(25, 209, 25);
+    padding: 6px 8px;
+    border-style: none;
+    transition: 0.3s;
+  }
+
+  .stretch button:hover {
+    transform: scale(1.2);
+    margin-left: 10px;
+    padding: 10px;
+  }
+
+  .grow button {
+    background-color: lightgreen;
+    border: none;
+    padding: 6px 8px;
+    margin-right: 9px;
+    transition: 0.3s;
+  }
+
+  .grow button:hover {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .click button {
+    background-color: lightcoral;
+    border: none;
+    padding: 8px 10px;
+    box-shadow: 4px 5px 6px;
+    transition: all 0.3s;
+  }
+
+  .click button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
