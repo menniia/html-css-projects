@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    max-width: 350px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .pet-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+
+  .follow {
+    color: white;
+    background-color: rgb(67, 67, 228);
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.2s;
+  }
+
+  .follow:hover {
+    opacity: 0.6;
+  }
