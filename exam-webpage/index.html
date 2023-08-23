@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="freecodecamp">
+        <img
+          src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+          alt=""
+        />
+      </div>
+      <div class="htmlcss">
+        <h1>html/css <span>quiz</span></h1>
+      </div>
+      <div class="info">
+        <p><a href="#student-info">info</a></p>
+        <p><a href="#html-questions">html</a></p>
+        <p><a href="#css-questions">css</a></p>
+      </div>
+    </header>
+
+    <main>
+      <fieldset>
+        <section id="student-info">
+          <h2><span>student info</span></h2>
+          <div class="divider"></div>
+          <form action="/action_page.php">
+            <div class="labels">
+              <label for="name">Name: </label>
+              <input type="text" required />
+            </div>
+            <div class="labels">
+              <label for="email">Email: </label>
+              <input type="email" />
+            </div>
+            <div class="labels">
+              <label for="date">D.O.B. </label>
+              <input type="date" />
+            </div>
+          </form>
+        </section>
+
+        <section id="html-questions">
+          <h2><span>html</span></h2>
+          <div class="divider"></div>
+          <ol>
+            <li></li>
+            <p class="question">
+              The legend element represents a caption for the content of its
+              parent fieldset element
+            </p>
+            <div class="input">
+              <input class="true" name="radio" type="radio" />
+              True
+            </div>
+            <div class="input">
+              <input class="false" name="radio" type="radio" />
+              False
+            </div>
+            <li></li>
+            <p class="question">
+              A label element nesting an input element is required to have a for
+              attribute with the same value as the input's id
+            </p>
+            <div class="input">
+              <input class="true" name="test" type="radio" />
+              True
+            </div>
+            <div class="input">
+              <input class="false" name="test" type="radio" />
+              False
+            </div>
+          </ol>
+        </section>
+
+        <section id="css-questions">
+          <h2>css</h2>
+          <div class="divider"></div>
+          <p>Are you a frontend developer</p>
+          <select name="" id="" required>
+            <option value="">Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+          <p>Do you have any questions:</p>
+          <textarea
+            name=""
+            id=""
+            cols="27"
+            rows="5"
+            placeholder="Who is flexbox..."
+          ></textarea>
+        </section>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </main>
+  </body>
+</html>
