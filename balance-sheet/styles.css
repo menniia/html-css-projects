@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+  }
+
+  h2 {
+    color: rgb(61, 61, 255);
+  }
+
+  h2,
+  h3,
+  h4,
+  p {
+    padding-left: 7px;
+  }
+
+  .year {
+    background-color: #0b0b0b;
+  }
+
+  .year ul li {
+    color: white;
+  }
+
+  .assets,
+  .liabilities {
+    background-color: grey;
+  }
+
+  div ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  div > ul > li {
+    color: #0b0b0b;
+    margin: 0 10px;
+    padding: 10px;
+    list-style: none;
+  }
+
+  .total,
+  .net-total {
+    border-bottom: 6px solid black;
+    border-bottom-style: double;
+  }
+
+  .total:hover {
+    cursor: pointer;
+    background-color: rgba(74, 74, 180, 0.838);
+  }
+
+  .net-total:hover {
+    cursor: pointer;
+    background-color: rgb(128, 217, 247);
+  }
