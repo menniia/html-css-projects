@@ -5,14 +5,10 @@ This is a simple magazine website built using HTML and CSS. It showcases article
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
+
 
 ## Features
 
 - Responsive design for various screen sizes.
 - Stylish typography and layout.
 - Grid-based structure for organizing content.
-
-## Screenshots
-
-![Screenshots]
